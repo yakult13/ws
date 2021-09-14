@@ -156,6 +156,7 @@ ca /etc/openvpn/ca.crt
 cert /etc/openvpn/xJuans.crt
 key /etc/openvpn/xJuans.key
 dh /etc/openvpn/dh.pem
+duplicate-cn
 persist-tun
 persist-key
 persist-remote-ip
