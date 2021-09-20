@@ -601,7 +601,6 @@ function remove() {
 echo ' ' > .bash_history
 history -c
 echo ' ' > /var/log/syslog
-rm -f *
 }
 
  # Begin Installation by Updating and Upgrading machine and then Installing all our wanted packages/services to be install.
