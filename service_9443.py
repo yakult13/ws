@@ -6,7 +6,7 @@ LISTENING_ADDR = '0.0.0.0'
 if sys.argv[1:]:
   LISTENING_PORT = sys.argv[1]
 else:
-  LISTENING_PORT = 8280
+  LISTENING_PORT = 9443
 
 # Pass
 PASS = ''
@@ -14,7 +14,7 @@ PASS = ''
 # CONST
 BUFLEN = 4096 * 4
 TIMEOUT = 86400
-DEFAULT_HOST = '127.0.0.1:225'
+DEFAULT_HOST = '127.0.0.1:443'
 RESPONSE = 'HTTP/1.1 101 <font color="red">Freenet Cafe</font>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
 
 class Server(threading.Thread):
